@@ -35,7 +35,7 @@ Return example:
 {
     id: 2,
     username: "a",
-    email: "a",
+    email: "a@a.com",
     password: "$2a$10$4IRZUUqZ.j/l1Os0l6IaZu.kDfQOtm5fF5CrbxqGxLprv5FjhyIa6",
     created_at: "2021-03-06 14:05:21",
     updated_at: "2021-03-06 14:05:21"
