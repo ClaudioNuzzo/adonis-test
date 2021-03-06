@@ -37,7 +37,7 @@ class UserController {
         
         //Rules to test request values sent by client
         const rules = {
-            email: 'required',
+            email: 'required|email',
             password: 'required'
         }
     
