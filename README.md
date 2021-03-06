@@ -6,6 +6,7 @@ costruito con il framework AdonisJs 4.1.
 
 ```bash
 GET /
+Return example:
 {
     name: "test.api",
     version: "0.0.1"
@@ -14,6 +15,7 @@ GET /
 
 ```bash
 POST “/api/v1/login“
+Return example:
 {
     code: "success",
     user_id: 1,
@@ -29,6 +31,7 @@ POST “/api/v1/login“
 
 ```bash
 GET /api/v1/user/:userId
+Return example:
 {
     id: 2,
     username: "a",
