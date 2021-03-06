@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello Adonis</title>
+  {{ style('style') }}
+</head>
+<body>
+  <section>
+  
+    <form action="{{ route('UserController.login')}}" method="POST">
+      {{ csrfField() }}
+      <div class="label-form">
+      <label for="email">email</label>
+      <input type="text" name="email" value="{{ old('email','') }}"/>
+      </div>
+      <div class="label-form">
+      <label for="password">password</label>
+      <input type="password" name="password" />
+      </div>
+      <div style="display: flex">
+        <button type="submit">Signup</button>
+       </div>
+    </form>
+  </section>
+</body>
+</html>
